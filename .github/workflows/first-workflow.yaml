@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   first-workflow:
-    runs-on: windows-latest
+    runs-on: macos-latest
 
     steps:
     - name: first step
