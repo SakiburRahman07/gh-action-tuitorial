@@ -1,6 +1,7 @@
 name: multijob Workflow
 
 on:
+  push:
   branches:
     - main
 
