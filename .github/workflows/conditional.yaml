@@ -1,0 +1,14 @@
+name: conditional workflow
+
+on:
+  push:
+   branches:
+    - "backend/**"
+
+jobs:
+  conditional-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name : first step
+        runs: echo "Hello World"
+    
