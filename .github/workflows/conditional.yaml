@@ -2,13 +2,12 @@ name: conditional workflow
 
 on:
   push:
-   branches:
-    - "backend/**"
+    branches:
+      - "backend/**"
 
 jobs:
   conditional-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name : first step
+      - name: first step
         run: echo "conditional World"
-    
