@@ -22,8 +22,7 @@ jobs:
     steps:
       - name: second step
         run: echo "Hello World"
-
-    third-workflow-job:
+  third-workflow-job:
 
     runs-on: ubuntu-latest
     needs: [first-workflow-job, second-workflow-job]
