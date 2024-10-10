@@ -2,7 +2,7 @@ name: multijob Workflow
 
 on:
   push:
-  branches:
+   branches:
     - main
 
 jobs:
