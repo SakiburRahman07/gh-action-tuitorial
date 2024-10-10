@@ -1,0 +1,13 @@
+name: Manual Workflow
+
+on: [push]
+  branches:
+    - main
+
+jobs:
+  first-workflow:
+    runs-on: macos-latest
+
+    steps:
+    - name: first step
+      run: echo "Hello World"
